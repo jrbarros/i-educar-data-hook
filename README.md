@@ -45,7 +45,9 @@ DATA_HOOK_SEND_STUDENT_UPDATE_RESOURCE=
 ## Uso
 
 As configuracoes de envio de dados para o i-Educar estao no arquivo `config/data-hook.php`.
+
 As configurações para onde os dados de cada listener serão enviados estão no arquivo `config/listeners_config.php`.
+
 Cada listener pode ter uma configuração de driver diferente, ou seja, o listener `student.create` pode enviar os dados para o i-Educar via HTTP e o listener `student.update` pode enviar os dados para o i-Educar via Redis.
 
 ## Perguntas frequentes (FAQ)
