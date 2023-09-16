@@ -1,0 +1,26 @@
+{
+  "name": "jrbarros/i-educar-data-hook",
+  "description": "Sync data from i-Educar to you application",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Joalisson Barros",
+      "email": "joalissonricardo@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+        "JrBarros\\Packages\\DataHook\\": "src/",
+        "JrBarros\\Packages\\DataHook\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "JrBarros\\Packages\\DataHook\\Providers\\DataHookServiceProvider"
+      ]
+    }
+  }
+}
