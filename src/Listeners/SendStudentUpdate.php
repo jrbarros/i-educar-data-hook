@@ -6,14 +6,14 @@ use App\Events\StudentUpdated;
 
 class SendStudentUpdate
 {
+    use BuildDriversTrait;
 
-    public function __construct()
+    /**
+     * @param StudentUpdated $event
+     * @return void
+     */
+    public function handle(StudentUpdated $event): void
     {
-    }
-
-    public function handle(StudentUpdated $event)
-    {
-        $student = $event->student;
-
+        $this->send($event->student->toArray());
     }
 }

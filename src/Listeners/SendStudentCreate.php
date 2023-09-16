@@ -6,12 +6,14 @@ use App\Events\StudentCreated;
 
 class SendStudentCreate
 {
-    public function __construct()
-    {
-    }
+    use BuildDriversTrait;
 
-    public function handle(StudentCreated $event)
+    /**
+     * @param StudentCreated $event
+     * @return void
+     */
+    public function handle(StudentCreated $event): void
     {
-        $student = $event->student;
+        $this->send($event->student->toArray());
     }
 }
