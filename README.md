@@ -54,11 +54,11 @@ Algumas perguntas aparecem recorrentemente. Olhe primeiro por aqui: [FAQ](https:
 
 
 ### Todo
-- [] Criar mais testes 
-- [] Adicionar mais listeners
-- [] Adicionar driver database
-- [] Adicionar driver beanstalkd
-- [] Adicionar driver sqs
-- [] Adicionar driver rabbitmq
-- [] Adicionar driver kafka
+- [ ] Criar mais testes 
+- [ ] Adicionar mais listeners
+- [ ] Adicionar driver database
+- [ ] Adicionar driver beanstalkd
+- [ ] Adicionar driver sqs
+- [ ] Adicionar driver rabbitmq
+- [ ] Adicionar driver kafka
 ---
