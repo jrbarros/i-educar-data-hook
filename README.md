@@ -1,4 +1,4 @@
-# i-Educar Data hook
+# i-Educar Data hook... Em PROGRESSO
 
 Módulo de sincronização de dados do [i-Educar](https://github.com/portabilis/i-educar) com sua aplicação.
 
